@@ -62,6 +62,7 @@ const hideExtraMobileContent = (hiddenSection, hiddenSectionContent, sectionTogg
     hiddenSection.style.height = '0px';
     sectionToggle.classList.remove('hide-content');
     toggleBtn.classList.remove('hide-section');
+    scrollToSection(sectionToggle);
 }
 
 // Function for smooth scrolling
